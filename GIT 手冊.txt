@@ -14,6 +14,8 @@ git add .
 git commit -m "Day1"
 git push -u 
 
+git pull --rebase //拉不上去 因為你電腦裡的內容是比較舊的，所以你應該先拉一份線上版本的回來更新，然後再推一次：
+
 git reset --hard HEAD 回復到最新提交版本
 git reset --hard HEAD~ // 等於 ~1 回復到上一個提交版本
 git reset --hard HEAD~n // n 等於往上第幾個提交版本 回復之前指定的提交版
