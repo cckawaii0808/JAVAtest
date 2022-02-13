@@ -11,7 +11,7 @@ git push -u origin master
 
 之後更動
 git add .
-git commit -m "12/23"
+git commit -m "Day1"
 git push -u 
 
 git reset --hard HEAD 回復到最新提交版本
